@@ -1,0 +1,95 @@
+body{
+  background-color: rgb(8, 83, 85);
+  font-family:'Courier New', Courier, monospace;
+}
+*{
+  position: relative;
+}
+h1{
+  text-align:center;
+  font-weight: bold;
+  font-style: oblique;
+}
+input{
+  font-size: larger;
+  text-align: center;
+  left: 17cm;
+  top: -.4cm;
+  height: 2rem;
+  width:4cm;
+  border: transparent;
+  box-shadow: 1px 1px 10px rgb(76, 75, 75);
+}
+#btn{
+  left: 11cm;
+  top: -.4cm;
+  font-style: italic;
+  height: 3rem;
+  width: 3rem;
+  border: transparent;
+  background-color: greenyellow;
+  box-shadow: 1px 1px 10px rgb(76, 75, 75);
+  border-radius: 100%;
+  font-weight: bold;
+}
+#btn:hover{
+background-color: rgb(91, 199, 14);
+}
+#clearbutton{
+  left: 14cm;
+  top: -1.7cm;
+  height: 3rem;
+  width: 3rem;
+  border: transparent;
+  background-color: #d20a0a;
+  box-shadow: 1px 1px 10px rgb(76, 75, 75);;
+  border-radius: 100%;
+  font-style: italic;
+  text-align:center;
+  font-weight: bold;
+
+}
+#clearbutton:hover{
+  background-color: #6f0606;
+}
+.searchbox{
+  color: unset;
+}
+.grid-container {
+  top: -1.4cm;
+  left: -1cm;
+  display: grid;
+  grid-template: 500px / 10cm 10cm 10cm;
+  grid-gap: 100px;
+  background-color: #2b2727;
+  padding: 5px;
+  box-shadow: 20px 20px 20px black;
+  border-radius: 20px;
+  margin-left: 2cm;
+}
+
+.grid-container > div {
+  background-color: rgb(96, 150, 146);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  font-weight: bolder;
+  border-radius: 20px;
+}
+#div1 {
+  width: 350px;
+  height: 400px;
+  padding: 10px;
+  top: -14.5cm;
+  left: 26.5cm;
+}
+#div2{
+  width: 350px;
+  height: 440px;
+  padding: 10px;
+  top: -25.9cm;
+  left: 13.9cm;
+}
+#drag1{
+  top: 1cm;
+}
